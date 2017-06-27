@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 HelicalCT_Head_Geriatrics.py 8 0 & CUDA_VISIBLE_DEVICES=1 python HelicalCT_Head_Geriatrics.py 8 1 & CUDA_VISIBLE_DEVICES=2 python HelicalCT_Head_Geriatrics.py 8 2 & CUDA_VISIBLE_DEVICES=3 python HelicalCT_Head_Geriatrics.py 8 3 & CUDA_VISIBLE_DEVICES=4 python HelicalCT_Head_Geriatrics.py 8 4 & CUDA_VISIBLE_DEVICES=5 python HelicalCT_Head_Geriatrics.py 8 5 & CUDA_VISIBLE_DEVICES=6 python HelicalCT_Head_Geriatrics.py 8 6 & CUDA_VISIBLE_DEVICES=7 python HelicalCT_Head_Geriatrics.py 8 7 && fg
+echo "I'm finished"
